@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="your content" />
+        <meta name="keywords" content="your content" />
+        <meta name="description" content="your content" />
+        <link rel="stylesheet" href="../static/style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <title>Tor Taepaisitphongse</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+        <script defer src="../static/script.js"></script>
+    </head>
+    <header>
+        <h1 id="webname">Tor Taepaisitphongse</h1>
+        <nav id="myTopnav" class="topnav">
+            <a href="index.html">Home</a>
+            <a href="cv.html">CV</a>
+            <a href="contact.html">Contact Me</a>
+            <a href="fun.html" class="active">For Fun!</a>
+            <a href="javascript:void(0);" class="icon">
+                <i class="fa fa-bars" onclick="activeNav()"></i>
+            </a>
+        </nav>
+    </header>
+    <body>
+        <div class="mainFun">
+            <div id="item1">
+                <h2>Things I love to do for fun</h2>
+                <!-- <button id="SeeMoreBTN" onclick="showList()">
+            Click to see...
+        </button> -->
+                <ul id="FavList">
+                    <li>Read</li>
+                    <li>Basketball</li>
+                    <li>Volleyball</li>
+                    <li>Soccer</li>
+                    <li>Piano</li>
+                </ul>
+            </div>
+            <div id="item2">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/DPJL488cfRw?si=6CQG1cE2HGA1hSbA"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                ></iframe>
+            </div>
+            <div id="item3">
+                <h3>My favorite places</h3>
+
+                <!--The div element for the map -->
+
+                <div id="map"></div>
+
+                <!-- prettier-ignore -->
+
+                <script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
+
+            ({key: "AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg", v: "weekly"});</script>
+            </div>
+            <div id="item4">
+                <img class="fun-IMG" src="../static/TorPicture.png" alt="" />
+            </div>
+        </div>
+    </body>
+    <footer>
+        <p>Tor Taepaisitphongse &copy; 2024</p>
+    </footer>
+</html>

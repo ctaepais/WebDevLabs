@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="your content">
+    <meta name="keywords" content="your content">
+    <meta name="description" content="your content">
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="../static/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<title>Tor Taepaisitphongse</title>
+</head>
+<body>
+    <header>
+        <h1 id="webname">Tor Taepaisitphongse</h1>
+        <nav id="myTopnav" class="topnav">
+            <a href="index.html">Home</a>
+            <a href="cv.html">CV</a>
+            <a href="contact.html" class="active">Contact Me</a>
+            <a href="fun.html">For Fun!</a>
+            <a href="javascript:void(0);" class="icon">
+
+                <i class="fa fa-bars" onclick="activeNav()"></i>
+     
+                </a>
+        </nav>
+    </header>
+    <div class="main">
+        <h2>Contact Me</h2>
+        <form action="">
+
+            <label for="UserName">Your name (required): </label>
+ 
+            <input type="text" name="UserName" id="UserName" required>
+ 
+            <label for="UserEmail">Your email (required): </label>
+ 
+            <input type="email" name="UserEmail" id="UserEmail" required>
+ 
+            <label for="UserText">Your text (required): </label>
+ 
+            <textarea name="UserText" id="UserText" cols="30" rows="10" required></textarea>
+ 
+            <input type="submit" value="Send" onclick="validate()">
+ 
+        </form>
+ 
+        <p id="ValidateMsg"></p>
+        <br>
+        <table border="1">
+            <tr>
+                <th>Contact Method</th>
+                <th>Description</th>
+            <tr>
+            <td>Email</td><td>ctaepais@andrew.cmu.edu</td>
+            </tr>
+                <td>Phone</td><td>413-406-4853</td>
+            </tr>
+            <tr>
+                <td>LinkedIn</td><td>linkedin.com/in/ctae</td>
+            </tr>
+        </table>
+    </div>
+    <footer>
+        <p>Tor Taepaisitphongse &copy; 2024</p>
+    </footer>
+</body>
+</html>
